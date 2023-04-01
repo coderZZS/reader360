@@ -4,7 +4,7 @@ import { View, Text } from 'react-native'
 export default () => {
     return (
         <View>
-            <Text>首页</Text>
+            <Text>我的</Text>
         </View>
     )
 }
