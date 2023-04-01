@@ -1,16 +1,13 @@
 import { StackNavigationOptions, TransitionPresets } from '@react-navigation/stack'
 import React from 'react'
 import { allPage, tabbarPage } from '../pages'
-
-type TabbarOption = {
-    title: string
-}
+import { BottomTabNavigationOptions } from '@react-navigation/bottom-tabs'
 
 interface Route {
     name: string
     component: React.FC
     option: StackNavigationOptions
-    tabbarOption?: TabbarOption
+    tabbarOption?: BottomTabNavigationOptions
 }
 
 const commonOption: StackNavigationOptions = {
@@ -38,7 +35,7 @@ const routes: Route[] = Object.keys(allPage).map((name) => {
 })
 
 export const tabbarRoutes: Route[] = Object.keys(tabbarPage).map((name) => {
-    return {
+    const route: Route = {
         name,
         component: allPage[name],
         option: {
@@ -46,8 +43,10 @@ export const tabbarRoutes: Route[] = Object.keys(tabbarPage).map((name) => {
         },
         tabbarOption: {
             ...tabbarOption[name],
+            headerShown: false,
         },
     }
+    return route
 })
 
 export default routes

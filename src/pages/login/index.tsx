@@ -12,7 +12,7 @@ export default () => {
 
     return (
         <View style={style.container}>
-            <Text style={style.txt}>小红书</Text>
+            <Text style={style.txt}>login</Text>
             <Pressable
                 style={({ pressed }) => [
                     style.loginBtn,

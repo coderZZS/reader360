@@ -21,7 +21,7 @@ function App(): JSX.Element {
             <StatusBar barStyle={'dark-content'} backgroundColor={'white'} />
             <NavigationContainer>
                 <Stack.Navigator
-                    initialRouteName="main"
+                    initialRouteName="welcome"
                     screenOptions={{
                         cardStyle: {
                             elevation: 1,

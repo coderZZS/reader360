@@ -17,7 +17,7 @@ export default () => {
 
     return (
         <View style={style.container}>
-            <Text style={style.txt}>小红书</Text>
+            <Text style={style.txt}>wellcom</Text>
         </View>
     )
 }

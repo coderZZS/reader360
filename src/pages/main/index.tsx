@@ -72,7 +72,7 @@ export default () => {
         <View style={style.container}>
             <ButtonTab.Navigator tabBar={(props) => <Tabbar {...props} />}>
                 {tabbarRoutes.map((route, key) => {
-                    return <ButtonTab.Screen name={route.name} key={key} component={route.component} options={route.tabbarOption} />
+                    return <ButtonTab.Screen name={route.name} key={key} component={route.component} options={{ ...route.tabbarOption }} />
                 })}
             </ButtonTab.Navigator>
         </View>
