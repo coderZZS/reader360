@@ -21,7 +21,7 @@ function App(): JSX.Element {
             <StatusBar barStyle={'dark-content'} backgroundColor={'white'} />
             <NavigationContainer>
                 <Stack.Navigator
-                    initialRouteName="welcome"
+                    initialRouteName="home"
                     screenOptions={{
                         cardStyle: {
                             elevation: 1,
@@ -29,7 +29,14 @@ function App(): JSX.Element {
                     }}
                 >
                     {routes.map((route, key) => {
-                        return <Stack.Screen name={route.name} key={key} component={route.component} options={{ ...route.option }} />
+                        return (
+                            <Stack.Screen
+                                name={route.name}
+                                key={key}
+                                component={route.component}
+                                options={{ ...route.option }}
+                            />
+                        )
                     })}
                 </Stack.Navigator>
             </NavigationContainer>

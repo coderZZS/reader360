@@ -17,7 +17,7 @@ export default () => {
 
     return (
         <View style={style.container}>
-            <Text style={style.txt}>wellcom</Text>
+            <Text style={style.txt}>welcome</Text>
         </View>
     )
 }
