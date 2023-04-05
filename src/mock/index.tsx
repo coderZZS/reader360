@@ -3,6 +3,7 @@ import { WorksPropsType } from '../components/Works'
 export const MOCK_RENDER_DATA: WorksPropsType[] = [
     {
         title: '测试作品',
+        id: '123',
     },
     {
         title: '测试作品2',

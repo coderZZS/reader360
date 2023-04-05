@@ -10,7 +10,7 @@ const initialState: UsersState = {
     age: 0,
 }
 
-export const counterSlice = createSlice({
+export const usersSlice = createSlice({
     name: 'counter',
     initialState,
     reducers: {
@@ -26,8 +26,8 @@ export const counterSlice = createSlice({
     },
 })
 
-export const { increment, decrement, incrementByAmount } = counterSlice.actions
+export const { increment, decrement, incrementByAmount } = usersSlice.actions
 
 export const selectCount = (state: RootState) => state.users.age
 
-export default counterSlice.reducer
+export default usersSlice.reducer
