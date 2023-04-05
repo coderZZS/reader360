@@ -21,7 +21,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'redBook' do
+target 'reader360' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -43,7 +43,7 @@ target 'redBook' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'redBookTests' do
+  target 'reader360Tests' do
     inherit! :complete
     # Pods for testing
   end

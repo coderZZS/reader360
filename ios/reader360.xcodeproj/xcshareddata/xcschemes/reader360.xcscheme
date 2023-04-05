@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "redBook.app"
-               BlueprintName = "redBook"
-               ReferencedContainer = "container:redBook.xcodeproj">
+               BuildableName = "reader360.app"
+               BlueprintName = "reader360"
+               ReferencedContainer = "container:reader360.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "redBookTests.xctest"
-               BlueprintName = "redBookTests"
-               ReferencedContainer = "container:redBook.xcodeproj">
+               BuildableName = "reader360Tests.xctest"
+               BlueprintName = "reader360Tests"
+               ReferencedContainer = "container:reader360.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "redBook.app"
-            BlueprintName = "redBook"
-            ReferencedContainer = "container:redBook.xcodeproj">
+            BuildableName = "reader360.app"
+            BlueprintName = "reader360"
+            ReferencedContainer = "container:reader360.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "redBook.app"
-            BlueprintName = "redBook"
-            ReferencedContainer = "container:redBook.xcodeproj">
+            BuildableName = "reader360.app"
+            BlueprintName = "reader360"
+            ReferencedContainer = "container:reader360.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

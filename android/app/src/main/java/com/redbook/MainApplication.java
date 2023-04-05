@@ -1,4 +1,4 @@
-package com.redbook;
+package com.reader360;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
