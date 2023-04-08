@@ -2846,7 +2846,7 @@ colorette@^1.0.7:
   resolved "https://registry.npmmirror.com/colorette/-/colorette-1.4.0.tgz#5190fbb87276259a86ad700bff2c6d6faa3fca40"
   integrity sha512-Y2oEozpomLn7Q3HFP7dpww7AtMJplbM9lGZP6RDfHqmbeRjiwRg4n6VM6j4KLmRke85uWEI7JqF17f3pqdRA0g==
 
-colors@^1.1.2:
+colors@^1.1.2, colors@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
   integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
@@ -5617,6 +5617,11 @@ node-stream-zip@^1.9.1:
   version "1.15.0"
   resolved "https://registry.npmmirror.com/node-stream-zip/-/node-stream-zip-1.15.0.tgz#158adb88ed8004c6c49a396b50a6a5de3bca33ea"
   integrity sha512-LN4fydt9TqhZhThkZIVQnF9cwjU3qmUH9h78Mx/K7d3VvfRqqwthLwJEUOEL0QPZ0XQmNN7be5Ggit5+4dq3Bw==
+
+node-version@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/node-version/-/node-version-3.0.0.tgz#1ee8880d416469fbec6fa50e3e57db1bc98c9cc4"
+  integrity sha512-lOtS3Vaqo4GntMFYyH6BXbpiqgD5F+5ycBwDYaCjzBA9pKK9G1j6cKVtu3HU0HATDTikcWOTn8MxQmj/jo4iTQ==
 
 normalize-css-color@^1.0.2:
   version "1.0.2"
